@@ -18665,13 +18665,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/FormsApp/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/FormsApp/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/FormsApp/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/FormsApp/Views/Home/Create.cshtml",
+      "TargetPath": "Views\\Home\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
