@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1xwZIeCigKJRAMoaSjkTOAXu9yzHAp6EVE87HOs+UBTq87a8HiDNWwF7sNf7yL/jkmpwNGwhUwh5S65BZ0PcDQ==",
+  "dgSpecHash": "B2IbEBPEo+4=",
   "success": true,
-  "projectFilePath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/FormsApp/FormsApp.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\Desktop\\StajProjeleri\\aspnetcore-v7-main\\FormsApp\\FormsApp\\FormsApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

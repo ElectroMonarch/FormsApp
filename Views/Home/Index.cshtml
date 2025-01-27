@@ -37,26 +37,26 @@
             </tr>
         </thead>
         <tbody>
-            @for(var i = 0; i < @Model.Products.Count; i++)
+            @for (var i = 0; i < @Model.Products.Count; i++)
             {
-                <tr>
-                    <td>
+                    <tr>
+                        <td>
                         @Model.Products[i].ProductId
-                        <input type="hidden" asp-for="@Model.Products[i].ProductId">
-                    </td>
-                    <td>
-                        <img src="~/img/@Model.Products[i].Image" class="img-fluid" alt="">
-                    </td>
-                    <td>@Model.Products[i].Name</td>
-                    <td>@Model.Products[i].Price</td>
-                    <td>
-                        <input type="checkbox" asp-for="@Model.Products[i].IsActive">
-                    </td>
-                    <td>
-                        <a href="/Home/Edit/@Model.Products[i].ProductId" class="btn btn-sm btn-primary">Edit</a>
-                        <a href="/Home/Delete/@Model.Products[i].ProductId" class="btn btn-sm btn-danger">Delete</a>
-                    </td>
-                </tr>
+                            <input type="hidden" asp-for="@Model.Products[i].ProductId">
+                        </td>
+                        <td>
+                            <img src="~/img/@Model.Products[i].Image" class="img-fluid" alt="">
+                        </td>
+                        <td>@Model.Products[i].Name</td>
+                        <td>@Model.Products[i].Price</td>
+                        <td>
+                            <input type="checkbox" asp-for="@Model.Products[i].IsActive">
+                        </td>
+                        <td>
+                            <a href="/Home/Edit/@Model.Products[i].ProductId" class="btn btn-sm btn-primary">Edit</a>
+                            <a href="/Home/Delete/@Model.Products[i].ProductId" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
             }
         </tbody>
     </table>
